@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('/font/Roboto-Regular.eot');
+    src: url('/font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/font/Roboto-Regular.woff') format('woff'),
+    url('/font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #C4C4C4;
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    min-width: 500px;
+    margin: 0 auto;
+
+    margin: 62px 84px 72px 74px;
+}
+
+.input_search {
+    box-sizing: border-box;
+    width: 500px;
+    height: 61px;
+    margin: 0 auto;
+
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding-left: 13px;
+
+    outline:none;
+    border: none;
+}
+
+.search_list {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.search_item {
+    box-sizing: border-box;
+    width: 500px;
+    height: 44px;
+
+    background: #E3E3E3;
+    border: 2px solid #000000;
+
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    padding-left: 13px;
+}
+
+.search_item_active, .search_item:hover {
+    box-sizing: border-box;
+    width: 500px;
+    height: 44px;
+
+    background: #65CDF9;
+    border: 2px solid #000000;
+
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    padding-left: 13px;
+}
+
+.info_list {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.info_item {
+    display: flex;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    width: 503px;
+    min-height: 101px;
+
+    background: #E27BEB;
+    border: 1px solid #000000;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+    margin-left: 16px;
+}
+.button_close {
+    min-width: 45px;
+    min-height: 42px;
+
+    margin: auto 0;
+    margin-right: 34px;
+
+    background-image: url("/img/vector.svg");
+}
