@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Roboto Regular';
-    src: url('/font/Roboto-Regular.eot');
-    src: url('/font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/font/Roboto-Regular.woff') format('woff'),
-    url('/font/Roboto-Regular.ttf') format('truetype');
+    src: url('../font/Roboto-Regular.eot');
+    src: url('../font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Regular.woff') format('woff'),
+    url('../font/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -131,5 +131,5 @@ body {
     margin: auto 0;
     margin-right: 34px;
 
-    background-image: url("/img/vector.svg");
+    background-image: url("../img/vector.svg");
 }
